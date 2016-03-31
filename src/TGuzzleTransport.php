@@ -1,5 +1,5 @@
 <?php
-namespace thriftguzzle;
+namespace ThriftGuzzle;
 
 use GuzzleHttp\Client;
 use Guzzlehttp\Psr7\Request;

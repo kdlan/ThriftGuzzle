@@ -1,6 +1,6 @@
 <?php
 
-namespace thriftguzzle;
+namespace ThriftGuzzle;
 
 use Thrift\Exception\TApplicationException;
 use Thrift\Factory\TProtocolFactory;

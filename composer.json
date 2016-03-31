@@ -3,11 +3,11 @@
     "type": "project",
     "require":{
         "apache/thrift":"0.9.3",
-        "guzzlehttp/guzzle": "^6.2",
+        "guzzlehttp/guzzle": "^6.2"
     },
     "autoload":{
         "psr-4":{
-            "thriftguzzle\\":"src"
+            "ThriftGuzzle\\":"src"
         }        
     }
 }
