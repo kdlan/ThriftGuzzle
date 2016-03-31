@@ -1,5 +1,9 @@
 ```php
-$client = new ThriftGuzzle\PromiseClient('\\service\\example\\EchoServiceIf', new ThriftGuzzle\TGuzzleTransport('http://127.0.0.1:8080/service-example/echo-service'), new Thrift\Factory\TBinaryProtocolFactory(true, true));
+$client = new ThriftGuzzle\PromiseClient(
+    '\\service\\example\\EchoServiceIf', 
+    new ThriftGuzzle\TGuzzleTransport('http://127.0.0.1:8080/service-example/echo-service'), 
+    new Thrift\Factory\TBinaryProtocolFactory(true, true)
+);
 
 
 $promise = $client->echo('123');
